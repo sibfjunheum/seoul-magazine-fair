@@ -34,6 +34,9 @@ html::-webkit-scrollbar { display: none; }
 
 a { color: inherit; text-decoration: none; }
 
+/* 드래그(선택)한 글자: 배경은 그때의 글자색(--ink), 글자는 흰색 */
+::selection { background: var(--ink); color: #fff; }
+
 ol, ul { list-style: none; }
 
 header {
